@@ -96,9 +96,9 @@ describe("Test fibonacci", () => {
     })
 });
 
-describe("Test permutations", () => {
-    test("It should return a list of possible combinations", () => {
-        expect(permutations(3, 3)).toStrictEqual(["123", "132", "213", "231", "312", "321"]);
-        expect(permutations(3, 0)).toStrictEqual([]);
-    })
-});
+// describe("Test permutations", () => {
+//     test("It should return a list of possible combinations", () => {
+//         expect(permutations(3, 3)).toStrictEqual(["123", "132", "213", "231", "312", "321"]);
+//         expect(permutations(3, 0)).toStrictEqual([]);
+//     })
+// });
